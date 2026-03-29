@@ -1,12 +1,12 @@
 {
-  "homepage": "https://github.com/hlissner/doom-emacs",
+  "homepage": "https://github.com/doomemacs/doomemacs",
   "license": "MIT",
   "version": "nightly",
   "depends": [
     "make",
     "emacs-p"
   ],
-  "url": "https://ghproxy.com/https://github.com/hlissner/doom-emacs/archive/develop.zip",
+  "url": "https://ghproxy.com/https://github.com/doomemacs/doomemacs/archive/develop.zip",
   "extract_dir": "doom-emacs-develop",
   "bin": [
     "bin\\doom.cmd"

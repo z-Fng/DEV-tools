@@ -3,7 +3,7 @@
   "license": "UNKNOWN",
   "description": "Program font: Fira Code Retina Nerd Font Mono",
   "homepage": "https://gitee.com/yaxin-cn/program-fonts",
-  "url": "https://github.com/yaxin-cn/program-fonts/raw/master/Fira%20Code%20Retina%20Nerd%20Font%20Complete.ttf",
+  "url": "https://github.com/bookiu/program-fonts/raw/master/Fira%20Code%20Retina%20Nerd%20Font%20Complete.ttf",
   "hash": "0165fbd893be8b27d66c3a9bf5e7141dfd5d74ac4fd7e1d46e162cce686382ca",
   "depends": "sudo",
   "installer": {

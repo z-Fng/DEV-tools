@@ -4,11 +4,11 @@
     "homepage": "https://hiddify.com/",
     "license": {
         "identifier": "CC-BY-NC-SA-4.0",
-        "url": "https://github.com/hiddify/hiddify-next/blob/main/LICENSE.md"
+        "url": "https://github.com/hiddify/hiddify-app/blob/main/LICENSE.md"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Windows-Portable-x64.zip",
+            "url": "https://github.com/hiddify/hiddify-app/releases/download/v2.5.7/Hiddify-Windows-Portable-x64.zip",
             "hash": "dbb4ae2d70395c20ae3de86afd047f0be9ffb20d42be5a104e332f6469cdb6d7"
         }
     },
@@ -29,14 +29,14 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/hiddify/hiddify-next/releases",
+        "url": "https://api.github.com/repos/hiddify/hiddify-app/releases",
         "jsonpath": "$[0].assets[*].browser_download_url",
         "regex": "/releases/download/v([\\w.]+)/(?<file>(?:hiddify|Hiddify)-(?:windows|Windows)-(?:portable|Portable)-x64\\.zip)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/hiddify/hiddify-next/releases/download/v$version/$matchFile"
+                "url": "https://github.com/hiddify/hiddify-app/releases/download/v$version/$matchFile"
             }
         }
     }

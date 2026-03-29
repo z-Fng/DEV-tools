@@ -3,7 +3,7 @@
     "description": "Distribute and run LLMs with a single file.",
     "license": "Apache-2.0",
     "version": "0.9.3",
-    "url": "https://github.com/Mozilla-Ocho/llamafile/releases/download/0.9.3/llamafile-0.9.3.zip",
+    "url": "https://github.com/mozilla-ai/llamafile/releases/download/0.9.3/llamafile-0.9.3.zip",
     "hash": "26be2af485cc5676040b7108b5904c83d9ccb9b31013b1bf13fbd4ac782d7c41",
     "extract_dir": "llamafile-0.9.3",
     "bin": [
@@ -33,10 +33,10 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/Mozilla-Ocho/llamafile"
+        "github": "https://github.com/mozilla-ai/llamafile"
     },
     "autoupdate": {
-        "url": "https://github.com/Mozilla-Ocho/llamafile/releases/download/$version/llamafile-$version.zip",
+        "url": "https://github.com/mozilla-ai/llamafile/releases/download/$version/llamafile-$version.zip",
         "extract_dir": "llamafile-$version"
     }
 }

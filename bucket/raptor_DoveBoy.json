@@ -1,10 +1,10 @@
 {
     "version": "2024.2.1",
     "description": "第三方阿里云盘桌面应用客户端",
-    "homepage": "https://github.com/InfpPointPlus/Raptor",
+    "homepage": "https://github.com/InfpHub/Raptor",
     "license": {
         "identifier": "GPL-3.0 license",
-        "url": "https://github.com/InfpPointPlus/Raptor#GPL-3.0-1-ov-file"
+        "url": "https://github.com/InfpHub/Raptor#GPL-3.0-1-ov-file"
     },
     "architecture": {
         "64bit": {
@@ -20,7 +20,7 @@
     ],
     "persist": "Raptor.ini",
     "checkver": {
-        "url": "https://api.github.com/repos/InfpPointPlus/Raptor/releases",
+        "url": "https://api.github.com/repos/InfpHub/Raptor/releases",
         "regex": "/releases/tag/([\\d.]+)"
     },
     "autoupdate": {

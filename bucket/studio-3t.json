@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ghproxy.com/https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
+  "$schema": "https://ghproxy.com/https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
   "version": "2023.5.0",
   "description": "The professional GUI for MongoDB.",
   "homepage": "https://studio3t.com/",

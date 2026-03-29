@@ -1,5 +1,5 @@
 {
-  "$schema": "https://github.com/lukesampson/scoop/raw/master/schema.json",
+  "$schema": "https://github.com/ScoopInstaller/Scoop/raw/master/schema.json",
   "version": "2",
   "url": "https://gist.github.com/Cologler/835e2f385d62d367e8732cced06d76fa/archive/master.zip",
   "extract_to": "tmp",

@@ -3,7 +3,7 @@
     "description": "Winfetch. A command-line system information utility for Windows 10",
     "homepage": "https://github.com/lptstr/winfetch",
     "license": "MIT",
-    "changelog": "https://github.com/kiedtl/winfetch/releases",
+    "changelog": "https://github.com/lptstr/winfetch/releases",
     "suggest": {
         "jcwillox/imagemagick-pure": "imagemagick-pure"
     },

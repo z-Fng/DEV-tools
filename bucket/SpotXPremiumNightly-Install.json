@@ -1,10 +1,10 @@
 {
     "version": "1.8-20230927-5074dc",
     "description": "SpotX. Modified spotify client with premium account. Blocks ads and updates, and more.",
-    "homepage": "https://github.com/amd64fox/SpotX/",
+    "homepage": "https://github.com/SpotX-Official/SpotX/",
     "license": "MIT",
-    "changelog": "https://github.com/amd64fox/SpotX/",
-    "url": "https://raw.githubusercontent.com/amd64fox/SpotX/main/Install.ps1",
+    "changelog": "https://github.com/SpotX-Official/SpotX/",
+    "url": "https://raw.githubusercontent.com/SpotX-Official/SpotX/main/Install.ps1",
     "hash": "7b952f3a662a68ea26e2135c75b4b2b24fc9b87b8fb0578a2ee15f0dd05febec",
     "installer": {
         "script": [
@@ -21,13 +21,13 @@
         "regex": "([\\w.-]+)",
         "script": [
             "# Using script to get version number from date, e.g. 6 Mar, 2019 -> 20190306",
-            "$url1 = 'https://api.github.com/repos/amd64fox/SpotX/releases/latest'",
+            "$url1 = 'https://api.github.com/repos/SpotX-Official/SpotX/releases/latest'",
             "$regex1 = 'tag/([\\d.]+)'",
             "$cont = $(Invoke-WebRequest $url1).Content",
             "if(!($cont -match $regex1)) { error \"Could match '$regex1' on '$url1'\"; return }",
             "$app_ver = $matches[1]",
             "",
-            "$url2 = 'https://github.com/amd64fox/SpotX/commits/main/Install.ps1'",
+            "$url2 = 'https://github.com/SpotX-Official/SpotX/commits/main/Install.ps1'",
             "$regex2 = '(?sm)Commits on ([\\w\\s,]+)</h2>.*?SpotX/commits/([0-9a-f]{6})'",
             "$cont = $(Invoke-WebRequest $url2).Content",
             "if(!($cont -match $regex2)) { error \"Could match '$regex2' on '$url2'\"; return }",
@@ -37,6 +37,6 @@
         ]
     },
     "autoupdate": {
-        "url": "https://raw.githubusercontent.com/amd64fox/SpotX/main/Install.ps1"
+        "url": "https://raw.githubusercontent.com/SpotX-Official/SpotX/main/Install.ps1"
     }
 }

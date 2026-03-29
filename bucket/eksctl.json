@@ -5,25 +5,25 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/weaveworks/eksctl/releases/download/v0.221.0/eksctl_Windows_amd64.zip",
+            "url": "https://github.com/eksctl-io/eksctl/releases/download/v0.221.0/eksctl_Windows_amd64.zip",
             "hash": "c247283dc064ac55e44222191d71800f189a16b438b42cb520fb1489d1b80513"
         },
         "arm64": {
-            "url": "https://github.com/weaveworks/eksctl/releases/download/v0.221.0/eksctl_Windows_arm64.zip",
+            "url": "https://github.com/eksctl-io/eksctl/releases/download/v0.221.0/eksctl_Windows_arm64.zip",
             "hash": "f1dbc8383281c0c318e4ee99eb688438f1d7a19dbbe2b2a03e93863740dc0f73"
         }
     },
     "bin": "eksctl.exe",
     "checkver": {
-        "github": "https://github.com/weaveworks/eksctl"
+        "github": "https://github.com/eksctl-io/eksctl"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/weaveworks/eksctl/releases/download/v$version/eksctl_Windows_amd64.zip"
+                "url": "https://github.com/eksctl-io/eksctl/releases/download/v$version/eksctl_Windows_amd64.zip"
             },
             "arm64": {
-                "url": "https://github.com/weaveworks/eksctl/releases/download/v$version/eksctl_Windows_arm64.zip"
+                "url": "https://github.com/eksctl-io/eksctl/releases/download/v$version/eksctl_Windows_arm64.zip"
             }
         },
         "hash": {

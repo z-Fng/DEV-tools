@@ -5,18 +5,18 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/percona/everest/releases/download/v1.11.0/everestctl.exe",
+            "url": "https://github.com/openeverest/openeverest/releases/download/v1.11.0/everestctl.exe",
             "hash": "811cf190699340527073067b68c07d4b46cb278bc0b11b34b7a06570ade0d944"
         }
     },
     "bin": "everestctl.exe",
     "checkver": {
-        "github": "https://github.com/percona/everest"
+        "github": "https://github.com/openeverest/openeverest"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/percona/everest/releases/download/v$version/everestctl.exe"
+                "url": "https://github.com/openeverest/openeverest/releases/download/v$version/everestctl.exe"
             }
         }
     }

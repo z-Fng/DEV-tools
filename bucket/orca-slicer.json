@@ -1,10 +1,10 @@
 {
   "license": "GPL-3.0-or-later",
   "version": "1.6.4-beta3",
-  "homepage": "https://github.com/SoftFever/OrcaSlicer",
+  "homepage": "https://github.com/OrcaSlicer/OrcaSlicer",
   "architecture": {
     "64bit": {
-      "url": "https://ghproxy.com/https://github.com/SoftFever/OrcaSlicer/releases/download/v1.6.4-beta3/OrcaSlicer_Windows_V1.6.4-beta3.zip",
+      "url": "https://ghproxy.com/https://github.com/OrcaSlicer/OrcaSlicer/releases/download/v1.6.4-beta3/OrcaSlicer_Windows_V1.6.4-beta3.zip",
       "hash": "sha256:4ec26f4dbbb4b3236a6fb87a80f1bca0e548a288320edf35818282928fe4233f",
       "bin": [
         "orca-slicer.exe"
@@ -18,12 +18,12 @@
     }
   },
   "checkver": {
-    "github": "https://github.com/SoftFever/OrcaSlicer"
+    "github": "https://github.com/OrcaSlicer/OrcaSlicer"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghproxy.com/https://github.com/SoftFever/OrcaSlicer/releases/download/v$version/OrcaSlicer_Windows_V$version.zip"
+        "url": "https://ghproxy.com/https://github.com/OrcaSlicer/OrcaSlicer/releases/download/v$version/OrcaSlicer_Windows_V$version.zip"
       }
     }
   }

@@ -1,12 +1,12 @@
 {
     "version": "1.19.0",
     "description": "ChatBox. a cross-platform desktop client for OpenAI API, also a prompt debugging and management tool.",
-    "homepage": "https://github.com/Bin-Huang/chatbox",
+    "homepage": "https://github.com/chatboxai/chatbox",
     "license": {
         "identifier": "GNU General Public License v3.0",
-        "url": "https://github.com/Bin-Huang/chatbox/blob/main/LICENSE"
+        "url": "https://github.com/chatboxai/chatbox/blob/main/LICENSE"
     },
-    "changelog": "https://github.com/Bin-Huang/chatbox/releases",
+    "changelog": "https://github.com/chatboxai/chatbox/releases",
     "architecture": {
         "64bit": {
             "url": "https://download.chatboxai.app/releases/Chatbox-1.19.0-Setup.exe#/dl.7z",
@@ -33,7 +33,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/Bin-Huang/chatbox"
+        "github": "https://github.com/chatboxai/chatbox"
     },
     "autoupdate": {
         "url": "https://download.chatboxai.app/releases/Chatbox-$version-Setup.exe#/dl.7z"

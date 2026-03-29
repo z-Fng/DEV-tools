@@ -4,7 +4,7 @@
     "homepage": "https://github.com/Lime3DS",
     "license": {
         "identifier": "GPL-2.0",
-        "url": "https://github.com/Lime3DS/Lime3DS/blob/master/license.txt"
+        "url": "https://github.com/azahar-emu/azahar/blob/master/license.txt"
     },
     "suggest": {
         "Azahar": "games/azahar"

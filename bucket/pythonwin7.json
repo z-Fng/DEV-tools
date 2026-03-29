@@ -5,11 +5,11 @@
     "license": "Python-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/adang1345/PythonWin7/raw/master/3.13.7/python-3.13.7-amd64-full.exe#/setup.exe",
+            "url": "https://github.com/adang1345/PythonVista/raw/master/3.13.7/python-3.13.7-amd64-full.exe#/setup.exe",
             "hash": "3d794a145b71951ebdb4fb00efa866569576c962502940e823f3a715a808d50f"
         },
         "32bit": {
-            "url": "https://github.com/adang1345/PythonWin7/raw/master/3.13.7/python-3.13.7-full.exe#/setup.exe",
+            "url": "https://github.com/adang1345/PythonVista/raw/master/3.13.7/python-3.13.7-full.exe#/setup.exe",
             "hash": "fa9406c58d32f87dfe6fa282cb4ec5ae5eb286222a69b07f414d7a45a9607f87"
         }
     },
@@ -71,15 +71,15 @@
         "Lib\\site-packages"
     ],
     "checkver": {
-        "github": "https://github.com/adang1345/PythonWin7"
+        "github": "https://github.com/adang1345/PythonVista"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/adang1345/PythonWin7/raw/master/$majorVersion.$minorVersion.${patchVersion:-0}/python-$version-amd64-full.exe#/setup.exe"
+                "url": "https://github.com/adang1345/PythonVista/raw/master/$majorVersion.$minorVersion.${patchVersion:-0}/python-$version-amd64-full.exe#/setup.exe"
             },
             "32bit": {
-                "url": "https://github.com/adang1345/PythonWin7/raw/master/$majorVersion.$minorVersion.${patchVersion:-0}/python-$version-full.exe#/setup.exe"
+                "url": "https://github.com/adang1345/PythonVista/raw/master/$majorVersion.$minorVersion.${patchVersion:-0}/python-$version-full.exe#/setup.exe"
             }
         }
     }

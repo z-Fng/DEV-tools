@@ -1,17 +1,17 @@
 {
     "version": "0.4.5",
     "description": "[Misc] - Powerful Minecraft Server Manager CLI. Easily install jars (server, plugins & mods) and write config files. Docker and git support included.",
-    "homepage": "https://github.com/ParadigmMC/mcman",
+    "homepage": "https://github.com/deniz-blue/mcman",
     "license": {
         "identifier": "Proprietary",
-        "url": "https://github.com/ParadigmMC/mcman/blob/main/LICENSE"
+        "url": "https://github.com/deniz-blue/mcman/blob/main/LICENSE"
     },
     "bin": "mcman.exe",
-    "url": "https://github.com/ParadigmMC/mcman/releases/download/0.4.5/mcman.exe",
+    "url": "https://github.com/deniz-blue/mcman/releases/download/0.4.5/mcman.exe",
     "checkver": {
-        "github": "https://github.com/ParadigmMC/mcman"
+        "github": "https://github.com/deniz-blue/mcman"
     },
     "autoupdate": {
-        "url": "https://github.com/ParadigmMC/mcman/releases/download/$version/mcman.exe"
+        "url": "https://github.com/deniz-blue/mcman/releases/download/$version/mcman.exe"
     }
 }

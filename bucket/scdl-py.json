@@ -1,6 +1,6 @@
 {
     "version": "2026-01-08T00.19.27",
-    "homepage": "https://github.com/flyingrub/scdl",
+    "homepage": "https://github.com/scdl-org/scdl",
     "description": "SoundCloud music downloader.",
     "license": "GPL-2.0-only",
     "depends": "python-bucket-utils",
@@ -10,7 +10,7 @@
             "ffmpeg-nightly"
         ]
     },
-    "url": "https://github.com/flyingrub/scdl/archive/master.zip",
+    "url": "https://github.com/scdl-org/scdl/archive/master.zip",
     "hash": "33bb5fcb44acc32d5dfbf366cb9ea849ba95c2ac7a71c6adadc2d9ae485d213c",
     "extract_dir": "scdl-master",
     "installer": {
@@ -27,11 +27,11 @@
         ]
     },
     "checkver": {
-        "url": "https://api.github.com/repos/flyingrub/scdl/commits",
+        "url": "https://api.github.com/repos/scdl-org/scdl/commits",
         "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
         "replace": "$1$2.$3.$4"
     },
     "autoupdate": {
-        "url": "https://github.com/flyingrub/scdl/archive/master.zip"
+        "url": "https://github.com/scdl-org/scdl/archive/master.zip"
     }
 }

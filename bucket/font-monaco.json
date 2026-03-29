@@ -3,7 +3,7 @@
   "license": "UNKNOWN",
   "description": "Program font: Monaco",
   "homepage": "https://gitee.com/yaxin-cn/program-fonts",
-  "url": "https://github.com/yaxin-cn/program-fonts/raw/master/Monaco.ttf",
+  "url": "https://github.com/bookiu/program-fonts/raw/master/Monaco.ttf",
   "hash": "a8cb11bd6a6d8ec35d50a0d2d85bbee0acf08eab05041107e058f784db7bd1e2",
   "depends": "sudo",
   "installer": {

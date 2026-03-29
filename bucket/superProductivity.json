@@ -4,9 +4,9 @@
     "homepage": "https://super-productivity.com",
     "license": {
         "identifier": "MIT",
-        "url": "https://github.com/johannesjo/super-productivity/blob/master/LICENSE"
+        "url": "https://github.com/super-productivity/super-productivity/blob/master/LICENSE"
     },
-    "url": "https://github.com/johannesjo/super-productivity/releases/download/v13.0.10/superProductivity-Setup-13.0.10.exe#/abgo_bucket_installer.exe",
+    "url": "https://github.com/super-productivity/super-productivity/releases/download/v13.0.10/superProductivity-Setup-13.0.10.exe#/abgo_bucket_installer.exe",
     "hash": "sha512:30cb96b6ef20878c34df6fa31fc3b3eec76e6839604b63a3f6566fba56ba2c85bf204d431960d16f639ca3f57fed0b498d1b39cad69ee444c9da93c1b6d5f8d0",
     "shortcuts": [
         [
@@ -35,10 +35,10 @@
         "remove_files @(\"$user_LocalAppData\\superproductivity-updater\")"
     ],
     "checkver": {
-        "github": "https://github.com/johannesjo/super-productivity"
+        "github": "https://github.com/super-productivity/super-productivity"
     },
     "autoupdate": {
-        "url": "https://github.com/johannesjo/super-productivity/releases/download/v$version/superProductivity-Setup-$version.exe#/abgo_bucket_installer.exe",
+        "url": "https://github.com/super-productivity/super-productivity/releases/download/v$version/superProductivity-Setup-$version.exe#/abgo_bucket_installer.exe",
         "hash": {
             "url": "$baseurl/latest.yml",
             "regex": "sha512:\\s+$base64"

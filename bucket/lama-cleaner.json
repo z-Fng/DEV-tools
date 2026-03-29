@@ -1,13 +1,13 @@
 {
     "version": "0.36.0",
     "description": "Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.",
-    "homepage": "https://github.com/Sanster/lama-cleaner",
+    "homepage": "https://github.com/Sanster/IOPaint",
     "license": {
         "identifier": "Apache-2.0 license",
-        "url": "https://github.com/Sanster/lama-cleaner/raw/main/LICENSE"
+        "url": "https://github.com/Sanster/IOPaint/raw/main/LICENSE"
     },
-    "notes": "Wiki: <https://github.com/Sanster/lama-cleaner/blob/main/scripts/README.md>",
-    "url": "https://github.com/Sanster/lama-cleaner/releases/download/win_one_click_installer/lama-cleaner-win.zip",
+    "notes": "Wiki: <https://github.com/Sanster/IOPaint/blob/main/scripts/README.md>",
+    "url": "https://github.com/Sanster/IOPaint/releases/download/win_one_click_installer/lama-cleaner-win.zip",
     "hash": "0504b0cc344bd378e67724f17878423fa56ed48195aac46f6de38120f0383df2",
     "extract_dir": "lama-cleaner",
     "shortcuts": [
@@ -21,10 +21,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/Sanster/lama-cleaner/releases",
+        "url": "https://api.github.com/repos/Sanster/IOPaint/releases",
         "regex": "/releases/tag/(?:v|V)?([\\w.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/Sanster/lama-cleaner/releases/download/win_one_click_installer/lama-cleaner-win.zip"
+        "url": "https://github.com/Sanster/IOPaint/releases/download/win_one_click_installer/lama-cleaner-win.zip"
     }
 }

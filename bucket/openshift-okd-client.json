@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/openshift/okd/releases/download/4.22.0-okd-scos.ec.0/openshift-client-windows-4.22.0-okd-scos.ec.0.zip",
+            "url": "https://github.com/okd-project/okd/releases/download/4.22.0-okd-scos.ec.0/openshift-client-windows-4.22.0-okd-scos.ec.0.zip",
             "hash": "eadf2f482e2d8f2d59f05bccbabc5a09c2b19ad5e81b31086652cffb0a9c5fac"
         }
     },
@@ -17,10 +17,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/openshift/okd/releases/download/$version/openshift-client-windows-$version.zip",
+                "url": "https://github.com/okd-project/okd/releases/download/$version/openshift-client-windows-$version.zip",
                 "hash": {
                     "mode": "extract",
-                    "url": "https://github.com/openshift/okd/releases/download/$version/sha256sum.txt",
+                    "url": "https://github.com/okd-project/okd/releases/download/$version/sha256sum.txt",
                     "find": "([a-fA-F0-9]{64})\\s+\\./openshift-client-windows-$version.zip"
                 }
             }

@@ -1,9 +1,9 @@
 {
     "version": "1.2",
     "description": "Minify and obfuscate GLSL or HLSL code",
-    "homepage": "https://github.com/laurentlb/Shader_Minifier",
+    "homepage": "https://github.com/laurentlb/shader-minifier",
     "license": "Apache-2.0",
-    "url":  "https://github.com/laurentlb/Shader_Minifier/releases/download/1.2/shader_minifier.exe",
+    "url":  "https://github.com/laurentlb/shader-minifier/releases/download/1.2/shader_minifier.exe",
     "bin": "shader-minifier.exe",
     "pre_install": [
       "Rename-Item \"$dir\\shader_minifier.exe\" 'shader-minifier.exe'"

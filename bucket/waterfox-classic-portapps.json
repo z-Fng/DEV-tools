@@ -4,7 +4,7 @@
     "homepage": "https://www.waterfox.net",
     "license": {
         "identifier": "MPL-2.0",
-        "url": "https://github.com/MrAlex94/Waterfox/blob/master/LICENSE"
+        "url": "https://github.com/BrowserWorks/waterfox/blob/master/LICENSE"
     },
     "persist": [
         "data",

@@ -4,7 +4,7 @@
     "homepage": "https://element.io/",
     "license": {
         "identifier": "Apache-2.0",
-        "url": "https://github.com/vector-im/element-web/blob/develop/LICENSE"
+        "url": "https://github.com/element-hq/element-web/blob/develop/LICENSE"
     },
     "persist": [
         "data",
