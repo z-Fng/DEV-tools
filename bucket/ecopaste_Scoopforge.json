@@ -1,7 +1,7 @@
 {
     "version": "0.5.0",
     "description": "Cross-platform clipboard management tool",
-    "homepage": "https://github.com/ayangweb/EcoPaste/",
+    "homepage": "https://github.com/EcoPasteHub/EcoPaste/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {

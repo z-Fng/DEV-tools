@@ -4,9 +4,9 @@
     "homepage": "https://devtoys.app/",
     "license": {
         "identifier": "MIT",
-        "url": "https://github.com/veler/DevToys/blob/main/LICENSE.md"
+        "url": "https://github.com/DevToys-app/DevToys/blob/main/LICENSE.md"
     },
-    "url": "https://github.com/veler/DevToys/releases/download/v1.0.13.0/64360VelerSoftware.DevToys_1.0.13.0_neutral_._j80j2txgjg9dj.msixbundle",
+    "url": "https://github.com/DevToys-app/DevToys/releases/download/v1.0.13.0/64360VelerSoftware.DevToys_1.0.13.0_neutral_._j80j2txgjg9dj.msixbundle",
     "hash": "020dd37d165ce2568405a32cdbcb93bfbe0a79864df9eb8c742a6a771c785ae3",
     "pre_install": [
         "$path_installer=\"$dir\\64360VelerSoftware.DevToys_$($version)_neutral_._j80j2txgjg9dj.msixbundle\"",
@@ -32,9 +32,9 @@
         "Get-AppxPackage -Name \"64360VelerSoftware.DevToys\" | Remove-AppxPackage"
     ],
     "checkver": {
-        "github": "https://github.com/veler/DevToys"
+        "github": "https://github.com/DevToys-app/DevToys"
     },
     "autoupdate": {
-        "url": "https://github.com/veler/DevToys/releases/download/v$version/64360VelerSoftware.DevToys_$version_neutral_._j80j2txgjg9dj.msixbundle"
+        "url": "https://github.com/DevToys-app/DevToys/releases/download/v$version/64360VelerSoftware.DevToys_$version_neutral_._j80j2txgjg9dj.msixbundle"
     }
 }

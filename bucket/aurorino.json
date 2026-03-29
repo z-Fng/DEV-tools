@@ -1,7 +1,7 @@
 {
   "version": "2850546648",
   "description": "Chat client for https://twitch.tv",
-  "homepage": "https://github.com/mrauro/chatterino2/tree/dankerino",
+  "homepage": "https://github.com/anqueue/chatterino2/tree/dankerino",
   "license": "MIT",
   "architecture": {
     "64bit": {

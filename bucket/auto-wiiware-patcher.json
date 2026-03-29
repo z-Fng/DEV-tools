@@ -1,9 +1,9 @@
 {
     "version": "2.3.0",
     "description": "WiiWare patching for Wiimmfi made easy.",
-    "homepage": "https://github.com/RiiConnect24/WiiWare-Patcher",
+    "homepage": "https://github.com/KcrPL/WiiWare-Patcher",
     "license": "AGPL-3.0-only",
-    "url": "https://github.com/RiiConnect24/WiiWare-Patcher/releases/download/v2.3.0/WiiWarePatcher.bat",
+    "url": "https://github.com/KcrPL/WiiWare-Patcher/releases/download/v2.3.0/WiiWarePatcher.bat",
     "hash": "6096da56b158b7136a9555f809cf58b4d50cd00b932cfd502ce22738a34cdf1c",
     "bin": "WiiWarePatcher.bat",
     "shortcuts": [
@@ -18,6 +18,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/RiiConnect24/WiiWare-Patcher/releases/download/v$version/WiiWarePatcher.bat"
+        "url": "https://github.com/KcrPL/WiiWare-Patcher/releases/download/v$version/WiiWarePatcher.bat"
     }
 }

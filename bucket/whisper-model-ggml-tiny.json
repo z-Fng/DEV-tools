@@ -1,7 +1,7 @@
 {
   "version": "80da2d8",
   "description": "(tiny) Whisper model files in custom ggml format",
-  "homepage": "https://github.com/ggerganov/whisper.cpp/tree/master/models",
+  "homepage": "https://github.com/ggml-org/whisper.cpp/tree/master/models",
   "license": "MIT",
   "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/80da2d8bfee42b0e836fc3a9890373e5defc00a6/ggml-tiny.bin",
   "hash": "be07e048e1e599ad46341c8d2a135645097a538221678b7acdd1b1919c6e1b21",

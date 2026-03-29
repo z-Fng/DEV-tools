@@ -1,10 +1,10 @@
 {
     "version": "140.0.7339.137-21",
     "description": "Google Chromium, sans integration with Google.",
-    "homepage": "https://github.com/Eloston/ungoogled-chromium",
+    "homepage": "https://github.com/ungoogled-software/ungoogled-chromium",
     "license": {
         "identifier": "BSD-3-Clause",
-        "url": "https://github.com/Eloston/ungoogled-chromium/blob/master/LICENSE"
+        "url": "https://github.com/ungoogled-software/ungoogled-chromium/blob/master/LICENSE"
     },
     "url": "https://github.com/portapps/ungoogled-chromium-portable/releases/download/140.0.7339.137-21/ungoogled-chromium-portable-win64-140.0.7339.137-21.7z#/dl.7z",
     "hash": "ca7e595bc9607adaa9eb52c337540d817f1e67a8bce01b5a1fabca34dd9864d2",

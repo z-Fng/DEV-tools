@@ -4,12 +4,12 @@
   "license": "MIT",
   "homepage": "https://ultralist.io/",
   "checkver": {
-    "github": "https://github.com/ultralist/ultralist"
+    "github": "https://github.com/gammons/ultralist"
   },
-  "url": "https://ghproxy.com/https://github.com/ultralist/ultralist/releases/download/1.7.0/ultralist_win.zip",
+  "url": "https://ghproxy.com/https://github.com/gammons/ultralist/releases/download/1.7.0/ultralist_win.zip",
   "hash": "0e8750f348cde39b9e543471c64b1ab2ebeb0593f477c8645a8e6033eb6033a0",
   "autoupdate": {
-    "url": "https://ghproxy.com/https://github.com/ultralist/ultralist/releases/download/$version/ultralist_win.zip"
+    "url": "https://ghproxy.com/https://github.com/gammons/ultralist/releases/download/$version/ultralist_win.zip"
   },
   "bin": [
     [

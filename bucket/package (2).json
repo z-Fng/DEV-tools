@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/demoslam/scoop-buckets-web-netlify.git"
+    "url": "git+https://github.com/yibum/scoop-buckets-web-unofficial.git"
   },
   "author": "Xiangbo Mao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/demoslam/scoop-buckets-web-netlify/issues"
+    "url": "https://github.com/yibum/scoop-buckets-web-unofficial/issues"
   },
-  "homepage": "https://github.com/demoslam/scoop-buckets-web-netlify#readme",
+  "homepage": "https://github.com/yibum/scoop-buckets-web-unofficial#readme",
   "devDependencies": {
     "atomic-algolia": "^0.3.19",
     "node-fetch": "^3.2.10"

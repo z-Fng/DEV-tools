@@ -4,9 +4,9 @@
     "homepage": "https://moejue.cn/",
     "license": {
         "identifier": "GPL-2.0 license",
-        "url": "https://github.com/iAJue/MoeKoeMusic#GPL-2.0-1-ov-file"
+        "url": "https://github.com/MoeKoeMusic/MoeKoeMusic#GPL-2.0-1-ov-file"
     },
-    "url": "https://github.com/iAJue/MoeKoeMusic/releases/download/v1.5.7/MoeKoe_Music_Setup_v1.5.7.exe#/dl.7z",
+    "url": "https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v1.5.7/MoeKoe_Music_Setup_v1.5.7.exe#/dl.7z",
     "hash": "05e8a181bf289cd7956730f4b665af5657ef2ca26641477b0e8a9a494ad80567",
     "architecture": {
         "64bit": {
@@ -44,10 +44,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/iAJue/MoeKoeMusic/releases",
+        "url": "https://api.github.com/repos/MoeKoeMusic/MoeKoeMusic/releases",
         "regex": "/releases/tag/v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/iAJue/MoeKoeMusic/releases/download/v$version/MoeKoe_Music_Setup_v$version.exe#/dl.7z"
+        "url": "https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v$version/MoeKoe_Music_Setup_v$version.exe#/dl.7z"
     }
 }

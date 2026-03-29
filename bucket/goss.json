@@ -15,7 +15,7 @@
   },
   "notes": [
     "Windows binarie is new and considered alpha-quality. Some functionality may be missing, some may be broken.",
-    "Also see https://github.com/aelsabbahy/goss/blob/master/docs/platform-feature-parity.md"
+    "Also see https://github.com/goss-org/goss/blob/master/docs/platform-feature-parity.md"
   ],
   "autoupdate": {
     "architecture": {

@@ -1,18 +1,18 @@
 {
     "version": "2.1.0",
     "description": "2^x图像超分辨率,一个开源的、强大的跨平台图像超分辨率工具。2^x Image Super-Resolution.",
-    "homepage": "https://github.com/Tohrusky/Final2x",
+    "homepage": "https://github.com/EutropicAI/Final2x",
     "license": {
         "identifier": "BSD 3-Clause \"New\" or \"Revised\" License",
-        "url": "https://github.com/Tohrusky/Final2x/blob/main/LICENSE"
+        "url": "https://github.com/EutropicAI/Final2x/blob/main/LICENSE"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Tohrusky/Final2x/releases/download/2024-12-14/Final2x-windows-x64-setup.exe#/abgo_bucket_installer.exe",
+            "url": "https://github.com/EutropicAI/Final2x/releases/download/2024-12-14/Final2x-windows-x64-setup.exe#/abgo_bucket_installer.exe",
             "hash": "e6ed8c4c154f6643dd6ee4c826cdd75df61551e1e95f03e018a9b1d0758bdf89"
         },
         "arm64": {
-            "url": "https://github.com/Tohrusky/Final2x/releases/download/2024-12-14/Final2x-windows-arm64-setup.exe#/abgo_bucket_installer.exe",
+            "url": "https://github.com/EutropicAI/Final2x/releases/download/2024-12-14/Final2x-windows-arm64-setup.exe#/abgo_bucket_installer.exe",
             "hash": "c22b1647afc0a3d4e706213b2f986772720479fc34c2bc0ef7060b268e3ab37f"
         }
     },

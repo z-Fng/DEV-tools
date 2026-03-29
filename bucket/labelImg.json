@@ -3,8 +3,8 @@
   "license": "MIT",
   "description": "LabelImg is a graphical image annotation tool.",
   "extract_dir": "windows_v1.8.1",
-  "url": "https://github.com/tzutalin/labelImg/files/2638199/windows_v1.8.1.zip",
-  "homepage": "https://github.com/tzutalin/labelImg",
+  "url": "https://github.com/HumanSignal/labelImg/files/2638199/windows_v1.8.1.zip",
+  "homepage": "https://github.com/HumanSignal/labelImg",
   "hash": "55231d50090dc8556397ab126bc8b680451ad9ce9bf055832441f48c31c8cf2c",
   "bin": "labelImg.exe",
   "shortcuts": [
@@ -14,11 +14,11 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/tzutalin/labelImg",
+    "github": "https://github.com/HumanSignal/labelImg",
     "re": "/files/(?<build>\\d+)/windows_v(?<version>[\\d.]+).zip"
   },
   "autoupdate": {
-    "url": "https://github.com/tzutalin/labelImg/files/$matchBuild/windows_v$matchVersion.zip",
+    "url": "https://github.com/HumanSignal/labelImg/files/$matchBuild/windows_v$matchVersion.zip",
     "extract_dir": "windows_v$matchVersion"
   }
 }

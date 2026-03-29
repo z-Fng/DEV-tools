@@ -1,11 +1,11 @@
 {
   "##": [
     "name:Nostlan",
-    "logo:https://ghproxy.com/https://raw.githubusercontent.com/quinton-ashley/nostlan/master/views/img/icon.png"
+    "logo:https://ghproxy.com/https://raw.githubusercontent.com/nostlan/nostlan/master/views/img/icon.png"
   ],
   "version": "2.1",
   "description": "A front-end for video game emulators",
-  "homepage": "https://github.com/quinton-ashley/nostlan",
+  "homepage": "https://github.com/nostlan/nostlan",
   "license": "MIT",
   "url": "",
   "hash": "5b0d9571ee607d9cecb68ecc081e62b68f72b97733331578a669badad1446ac8",
@@ -19,6 +19,6 @@
   },
   "checkver": "github",
   "autoupdate": {
-    "url": "https://ghproxy.com/https://github.com/quinton-ashley/nostlan/releases/download/$version/nostlan_Setup.exe"
+    "url": "https://ghproxy.com/https://github.com/nostlan/nostlan/releases/download/$version/nostlan_Setup.exe"
   }
 }

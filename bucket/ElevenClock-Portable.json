@@ -5,8 +5,8 @@
     "license": {
         "identifier": "GPL-3.0-or-later"
     },
-    "changelog": "https://github.com/martinet101/ElevenClock/releases",
-    "url": "https://github.com/martinet101/ElevenClock/releases/download/4.4.1.1/ElevenClock.Installer.exe",
+    "changelog": "https://github.com/marticliment/ElevenClock/releases",
+    "url": "https://github.com/marticliment/ElevenClock/releases/download/4.4.1.1/ElevenClock.Installer.exe",
     "hash": "f47fbf21cfccd24f5873b57cebbf3b7d69f88f27ddbd3bab33ee1a38c8b58780",
     "innosetup": true,
     "bin": "ElevenClock.exe",
@@ -17,9 +17,9 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/martinet101/ElevenClock"
+        "github": "https://github.com/marticliment/ElevenClock"
     },
     "autoupdate": {
-        "url": "https://github.com/martinet101/ElevenClock/releases/download/$version/ElevenClock.Installer.exe"
+        "url": "https://github.com/marticliment/ElevenClock/releases/download/$version/ElevenClock.Installer.exe"
     }
 }

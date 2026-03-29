@@ -1,5 +1,5 @@
 {
-    "##": "The installer is created by NSIS, but it cannot be extracted by 7-Zip. See https://github.com/lukesampson/scoop-extras/issues/1831 for details.",
+    "##": "The installer is created by NSIS, but it cannot be extracted by 7-Zip. See https://github.com/ScoopInstaller/Extras/issues/1831 for details.",
     "version": "5.2.1",
     "description": "Photography workflow application and raw developer.",
     "homepage": "https://www.darktable.org/",

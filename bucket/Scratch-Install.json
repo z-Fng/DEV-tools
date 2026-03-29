@@ -44,7 +44,7 @@
         "if (Test-Path \"$CommonDesktopPath\\$programname.lnk\") {Remove-Item \"$CommonDesktopPath\\$programname.lnk\" -Force}"
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/LLK/scratch-desktop/tags",
+        "url": "https://api.github.com/repos/scratchfoundation/scratch-desktop/tags",
         "regex": "refs/tags/v([\\d.]+)"
     },
     "autoupdate": {

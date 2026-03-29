@@ -1,7 +1,7 @@
 {
     "version": "1.0",
     "description": "spring框架的渗透测试工具",
-    "homepage": "https://github.com/sule01u/SBSCAN",
+    "homepage": "https://github.com/WuliRuler/SBSCAN",
     "license": "MIT",
     "notes": [
         ""
@@ -9,7 +9,7 @@
     "suggest": {
         "Python 3.7+": "python"
     },
-    "url": "https://github.com/sule01u/SBSCAN/archive/refs/tags/v1.0.zip",
+    "url": "https://github.com/WuliRuler/SBSCAN/archive/refs/tags/v1.0.zip",
     "hash": "",
     "pre_install": "Set-Content \"$dir\\sbscan.bat\" '@pushd %~dp0\npython3 \"sbscan.py\" %*\n@popd' -Encoding Ascii",
     "post_install": [
@@ -20,6 +20,6 @@
     "bin": "sbscan.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/sule01u/SBSCAN/archive/refs/tags/v$version.zip"
+        "url": "https://github.com/WuliRuler/SBSCAN/archive/refs/tags/v$version.zip"
     }
 }

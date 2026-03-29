@@ -5,18 +5,18 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vmware-tanzu/carvel-vendir/releases/download/v0.45.0/vendir-windows-amd64.exe#/vendir.exe",
+            "url": "https://github.com/carvel-dev/vendir/releases/download/v0.45.0/vendir-windows-amd64.exe#/vendir.exe",
             "hash": "779d4fe4170a472523bb1fcd0a591e460ff417381abd92ba8d2d8b7fa91f5531"
         }
     },
     "bin": "vendir.exe",
     "checkver": {
-        "github": "https://github.com/vmware-tanzu/carvel-vendir"
+        "github": "https://github.com/carvel-dev/vendir"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/vmware-tanzu/carvel-vendir/releases/download/v$version/vendir-windows-amd64.exe#/vendir.exe",
+                "url": "https://github.com/carvel-dev/vendir/releases/download/v$version/vendir-windows-amd64.exe#/vendir.exe",
                 "hash": {
                     "url": "$baseurl/checksums.txt",
                     "regex": "$sha256\\s+$basename"

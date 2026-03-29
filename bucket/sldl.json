@@ -1,11 +1,11 @@
 {
     "version": "2.6.0",
     "description": "slsk-batchdl is a smart and configurable downloader for Soulseek.",
-    "homepage": "https://github.com/fiso64/slsk-batchdl",
+    "homepage": "https://github.com/fiso64/sldl",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fiso64/slsk-batchdl/releases/download/v2.6.0/sldl_win-x86_self-contained.zip",
+            "url": "https://github.com/fiso64/sldl/releases/download/v2.6.0/sldl_win-x86_self-contained.zip",
             "hash": "5f696fc6d21aa249b384e381d26b509acb999ea5cb5530f5957a267e147e9a7c"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/fiso64/slsk-batchdl/releases/download/v$version/sldl_win-x86_self-contained.zip"
+                "url": "https://github.com/fiso64/sldl/releases/download/v$version/sldl_win-x86_self-contained.zip"
             }
         }
     }

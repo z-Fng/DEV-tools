@@ -1,7 +1,7 @@
 {
     "version": "2.12.2",
     "description": "COSBrowser is an official tool for accessing Tencent Cloud COS.",
-    "homepage": "https://github.com/tencentyun/cosbrowser",
+    "homepage": "https://github.com/TencentCloud/cosbrowser",
     "license": "Unknown",
     "url": "https://cosbrowser-1253960454.cos.ap-shanghai.myqcloud.com/releases/cosbrowser-setup-2.12.2.exe#/dl.7z",
     "hash": "bbc08aba673ef09404e425bde6896fa071969f4efa9b163b98226ae528ec48b0",
@@ -30,7 +30,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://raw.githubusercontent.com/tencentyun/cosbrowser/master/changelog.md",
+        "url": "https://raw.githubusercontent.com/TencentCloud/cosbrowser/master/changelog.md",
         "re": "v([\\d.]+)"
     },
     "autoupdate": {

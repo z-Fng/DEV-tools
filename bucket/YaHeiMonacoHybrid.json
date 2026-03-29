@@ -4,7 +4,7 @@
   "homepage": "https://www.kale.com.cn/",
   "description": "Apple Fonts",
   "url": [
-    "https://ghproxy.com/https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/YaHeiMonacoHybrid.zip",
+    "https://ghproxy.com/https://raw.githubusercontent.com/kaleai/scoop-packages/master/YaHeiMonacoHybrid.zip",
     "https://ghproxy.com/https://raw.githubusercontent.com/everyx/scoop-bucket/master/libexec/add-font.ps1",
     "https://ghproxy.com/https://raw.githubusercontent.com/everyx/scoop-bucket/master/libexec/remove-font.ps1"
   ],

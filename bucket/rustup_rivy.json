@@ -2,9 +2,9 @@
 	"version": "latest",
 	"license": "MIT",
 	"#hash": "sha256:?",
-	"homepage": "https://github.com/rust-lang-nursery/rustup.rs",
+	"homepage": "https://github.com/rust-lang/rustup",
 	"checkver": {
-		"url": "https://raw.githubusercontent.com/rust-lang-nursery/rustup.rs/master/Cargo.toml",
+		"url": "https://raw.githubusercontent.com/rust-lang/rustup/master/Cargo.toml",
 		"re": "version = \"(\\d+\\.\\d+\\.\\d+)\""
 	},
 	"url": "https://win.rustup.rs/#/rustup-init.exe",

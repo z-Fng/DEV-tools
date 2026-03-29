@@ -1,10 +1,10 @@
 {
-  "homepage": "https://github.com/QuiltMC/quiltflower/",
+  "homepage": "https://github.com/Vineflower/vineflower/",
   "version": "1.9.0",
   "description": "Quiltflower is a fork of Fernflower and ForgeFlower adding additional features for use with the Quilt toolchain.",
   "license": "Apache 2.0",
   "hash": "21923293ada63ffc663cba26126fa108a65bb2019a5112b2adb987f05f4cbd1b",
-  "url": "https://ghproxy.com/https://github.com/QuiltMC/quiltflower/releases/download/1.9.0/quiltflower-1.9.0.jar#/quiltflower.jar",
+  "url": "https://ghproxy.com/https://github.com/Vineflower/vineflower/releases/download/1.9.0/quiltflower-1.9.0.jar#/quiltflower.jar",
   "bin": "quiltflower.jar",
   "suggest": {
     "JDK": [
@@ -13,9 +13,9 @@
     ]
   },
   "checkver": {
-    "github": "https://github.com/QuiltMC/quiltflower/"
+    "github": "https://github.com/Vineflower/vineflower/"
   },
   "autoupdate": {
-    "url": "https://ghproxy.com/https://github.com/QuiltMC/quiltflower/releases/download/$version/quiltflower-$version.jar#/quiltflower.jar"
+    "url": "https://ghproxy.com/https://github.com/Vineflower/vineflower/releases/download/$version/quiltflower-$version.jar#/quiltflower.jar"
   }
 }

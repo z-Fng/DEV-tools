@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ghproxy.com/https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
+  "$schema": "https://ghproxy.com/https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
   "version": "3.3.0",
   "description": "It lets you configure, monitor and update various server components.",
   "homepage": "http://www.hpe.com/info/resttool",

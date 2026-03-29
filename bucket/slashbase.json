@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "hash": "3e161cbf3477db9ea5064a7ed593a1dba3e9eb7e730bbbd44a5c89b7742ac5d5",
-      "url": "https://ghproxy.com/https://github.com/slashbaseide/slashbase/releases/download/v0.10.0/windows_amd64.zip"
+      "url": "https://ghproxy.com/https://github.com/slashbase/slashbaseide/releases/download/v0.10.0/windows_amd64.zip"
     }
   },
   "bin": "Slashbase.exe",
@@ -17,12 +17,12 @@
     ]
   ],
   "checkver": {
-    "github": "https://github.com/slashbaseide/slashbase"
+    "github": "https://github.com/slashbase/slashbaseide"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghproxy.com/https://github.com/slashbaseide/slashbase/releases/download/v$version/windows_amd64.zip"
+        "url": "https://ghproxy.com/https://github.com/slashbase/slashbaseide/releases/download/v$version/windows_amd64.zip"
       }
     }
   }

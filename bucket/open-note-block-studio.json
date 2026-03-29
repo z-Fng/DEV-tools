@@ -1,9 +1,9 @@
 {
     "version": "3.11.0",
     "description": "[Music] - An open-source Minecraft music maker. ",
-    "homepage": "https://github.com/OpenNBS/OpenNoteBlockStudio",
+    "homepage": "https://github.com/OpenNBS/NoteBlockStudio",
     "license": "MIT",
-    "url": "https://github.com/OpenNBS/OpenNoteBlockStudio/releases/download/v3.11.0/Minecraft.Note.Block.Studio.zip",
+    "url": "https://github.com/OpenNBS/NoteBlockStudio/releases/download/v3.11.0/Minecraft.Note.Block.Studio.zip",
     "bin": "Minecraft Note Block Studio.exe",
     "shortcuts": [
         [
@@ -12,9 +12,9 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/OpenNBS/OpenNoteBlockStudio"
+        "github": "https://github.com/OpenNBS/NoteBlockStudio"
     },
     "autoupdate": {
-        "url": "https://github.com/OpenNBS/OpenNoteBlockStudio/releases/download/v$version/Minecraft.Note.Block.Studio.zip"
+        "url": "https://github.com/OpenNBS/NoteBlockStudio/releases/download/v$version/Minecraft.Note.Block.Studio.zip"
     }
 }

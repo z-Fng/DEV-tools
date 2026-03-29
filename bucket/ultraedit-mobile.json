@@ -31,7 +31,7 @@
   "persist": "Data",
   "notes": [
     "If you want encounter issue downloading the binaries, make sure you are using aria2 and fix user agent to real browser one.",
-    "See https://github.com/lukesampson/scoop#multi-connection-downloads-with-aria2.",
+    "See https://github.com/ScoopInstaller/Scoop#multi-connection-downloads-with-aria2.",
     "example: scoop config aria2-options \" -U 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36'\""
   ],
   "autoupdate": {

@@ -1,10 +1,10 @@
 {
   "version": "2022-08-27-9563a9d",
   "description": "Set of simple CLI tools to help mod league.",
-  "homepage": "https://github.com/LoL-Fantome/lolcustomskin-tools",
+  "homepage": "https://github.com/LeagueToolkit/cslol-manager",
   "architecture": {
     "64bit": {
-      "url": "https://ghproxy.com/https://github.com/LoL-Fantome/lolcustomskin-tools/releases/download/2022-08-27-9563a9d/cslol-manager-windows.exe#/dl.7z",
+      "url": "https://ghproxy.com/https://github.com/LeagueToolkit/cslol-manager/releases/download/2022-08-27-9563a9d/cslol-manager-windows.exe#/dl.7z",
       "hash": "2aea96dbeff94d3ebc5621de9264e835107beeca66c579b76527b1b19bbde8b7"
     }
   },
@@ -23,13 +23,13 @@
     ]
   ],
   "checkver": {
-    "url": "https://github.com/LoL-Fantome/lolcustomskin-tools/releases/latest",
+    "url": "https://github.com/LeagueToolkit/cslol-manager/releases/latest",
     "regex": "(?<version>[\\d\\w.-]+)/cslol-manager-windows.exe"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghproxy.com/https://github.com/LoL-Fantome/lolcustomskin-tools/releases/download/$version/cslol-manager-windows.exe#/dl.7z"
+        "url": "https://ghproxy.com/https://github.com/LeagueToolkit/cslol-manager/releases/download/$version/cslol-manager-windows.exe#/dl.7z"
       }
     }
   }

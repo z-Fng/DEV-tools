@@ -4,23 +4,23 @@
     "homepage": "https://gpukill.com/",
     "license": {
         "identifier": "MIT",
-        "url": "https://github.com/kagehq/gpu-kill?tab=License-1-ov-file#readme"
+        "url": "https://github.com/treadiehq/gpu-kill?tab=License-1-ov-file#readme"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kagehq/gpu-kill/releases/download/v0.1.10/gpukill-v0.1.10-windows-x86_64.zip",
+            "url": "https://github.com/treadiehq/gpu-kill/releases/download/v0.1.10/gpukill-v0.1.10-windows-x86_64.zip",
             "hash": "3df39e896786fb1d909b7e51b60b525c7759c363aee7f3765422bd7a3f304f9d"
         }
     },
     "bin": "gpukill.exe",
     "checkver": {
-        "github": "https://github.com/kagehq/gpu-kill"
+        "github": "https://github.com/treadiehq/gpu-kill"
     },
     "autoupdate": {
-        "url": "https://github.com/kagehq/gpu-kill/releases/download/v$version/gpukill-v$version-windows-x86_64.zip",
+        "url": "https://github.com/treadiehq/gpu-kill/releases/download/v$version/gpukill-v$version-windows-x86_64.zip",
         "hash": {
             "mode": "extract",
-            "url": "https://github.com/kagehq/gpu-kill/releases/expanded_assets/v$version",
+            "url": "https://github.com/treadiehq/gpu-kill/releases/expanded_assets/v$version",
             "regex": "gpukill.*\\.zip.*?sha256:$sha256"
         }
     }

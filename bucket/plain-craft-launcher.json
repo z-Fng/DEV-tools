@@ -1,12 +1,12 @@
 {
     "version": "2.12.2",
     "description": "新一代 Minecraft / 我的世界 启动器",
-    "homepage": "https://github.com/Hex-Dragon/PCL2",
+    "homepage": "https://github.com/Meloong-Git/PCL",
     "license": {
         "identifier": "Freeware",
         "url": "https://shimo.im/docs/rGrd8pY8xWkt6ryW/read"
     },
-    "url": "https://github.com/Hex-Dragon/PCL2/raw/main/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip",
+    "url": "https://github.com/Meloong-Git/PCL/raw/main/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip",
     "hash": "2bbb47a4c3d2a37b78731ec72f038c4bc7ce4e62fdb3f1302a6de593616bcd47",
     "pre_install": [
         "ensure \"$persist_dir\\PCL\" | Out-Null",
@@ -28,7 +28,7 @@
         ]
     ],
     "autoupdate": {
-        "url": "https://github.com/Hex-Dragon/PCL2/raw/main/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
+        "url": "https://github.com/Meloong-Git/PCL/raw/main/%E6%9C%80%E6%96%B0%E6%AD%A3%E5%BC%8F%E7%89%88.zip"
     },
     "checkver": "github"
 }

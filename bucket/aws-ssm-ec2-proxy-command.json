@@ -1,11 +1,11 @@
 {
-    "$schema": "https://ghproxy.com/https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
+    "$schema": "https://ghproxy.com/https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
     "version": "1.2.2",
     "description": "This script opens an SSH connection to ec2 instances via AWS SSM without the need to open any ssh port in you security groups.",
-    "homepage": "https://github.com/qoomon/aws-ssm-ec2-proxy-command",
+    "homepage": "https://github.com/qoomon/aws-ssm-ssh-proxy-command",
     "license": {
         "identifier": "MIT",
-        "url": "https://github.com/qoomon/aws-ssm-ec2-proxy-command/blob/master/LICENSE"
+        "url": "https://github.com/qoomon/aws-ssm-ssh-proxy-command/blob/master/LICENSE"
     },
     "notes": [
         "`aws-ssm-ec2-proxy-command` should be replaced to `aws-ssm-ec2-proxy-command-ec2-instance-connect` or `aws-ssm-ec2-proxy-command-ssm`",
@@ -21,7 +21,7 @@
         "	ProxyCommand ~/.ssh/aws-ssm-ec2-proxy-command.sh %h %r %p ~/.ssh/id_rsa.pub",
         "	StrictHostKeyChecking no"
     ],
-    "url": "https://ghproxy.com/https://github.com/qoomon/aws-ssm-ec2-proxy-command/archive/v1.2.2.zip#dl.zip",
+    "url": "https://ghproxy.com/https://github.com/qoomon/aws-ssm-ssh-proxy-command/archive/v1.2.2.zip#dl.zip",
     "hash": "1bf09a1fff643c5741af21f8160b2e70caad62d0584ed2b271b49bd3c2efd57f",
     "installer": {
         "script": [
@@ -39,9 +39,9 @@
         ]
     },
     "checkver": {
-        "github": "https://github.com/qoomon/aws-ssm-ec2-proxy-command"
+        "github": "https://github.com/qoomon/aws-ssm-ssh-proxy-command"
     },
     "autoupdate": {
-        "url": "https://ghproxy.com/https://github.com/qoomon/aws-ssm-ec2-proxy-command/archive/v$version.zip#dl.zip"
+        "url": "https://ghproxy.com/https://github.com/qoomon/aws-ssm-ssh-proxy-command/archive/v$version.zip#dl.zip"
     }
 }

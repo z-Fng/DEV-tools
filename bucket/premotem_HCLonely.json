@@ -19,7 +19,7 @@
     "}"
   ],
   "checkver": {
-    "url": "https://github.com/1Remote/PRemoteM/releases",
+    "url": "https://github.com/1Remote/1Remote/releases",
     "regex": "\\/1Remote\\/PRemoteM\\/releases\\/download\\/(?<tag>.+?)\\/PRemoteM\\-(?<version>.+?)\\.zip\""
   },
   "autoupdate": {

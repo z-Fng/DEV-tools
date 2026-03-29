@@ -1,6 +1,6 @@
 {
     "##": [
-        "The requirements are listed in https://github.com/TASVideos/BizHawk-Prereqs/blob/master/README",
+        "The requirements are listed in https://github.com/TASEmulators/BizHawk-Prereqs/blob/master/README",
         "The list of firmware-specific directories to persist comes from the base directories listed in BizHawk's /src/BizHawk.Client.Common/config/PathEntryCollection.cs"
     ],
     "version": "4250-20260326-7a94ca5e",

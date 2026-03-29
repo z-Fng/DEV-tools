@@ -4,7 +4,7 @@
     "homepage": "https://insomnia.rest",
     "license": {
         "identifier": "MIT",
-        "url": "https://github.com/getinsomnia/insomnia/blob/develop/LICENSE"
+        "url": "https://github.com/Kong/insomnia/blob/develop/LICENSE"
     },
     "persist": [
         "data",

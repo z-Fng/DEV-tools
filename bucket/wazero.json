@@ -5,18 +5,18 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tetratelabs/wazero/releases/download/v1.11.0/wazero_1.11.0_windows_amd64.zip",
+            "url": "https://github.com/wazero/wazero/releases/download/v1.11.0/wazero_1.11.0_windows_amd64.zip",
             "hash": "aefcf54798ac15ef138e7db3a595cc590314aea547f5a65dfb8f86853655d40e"
         }
     },
     "bin": "wazero.exe",
     "checkver": {
-        "github": "https://github.com/tetratelabs/wazero"
+        "github": "https://github.com/wazero/wazero"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tetratelabs/wazero/releases/download/v$version/wazero_$version_windows_amd64.zip"
+                "url": "https://github.com/wazero/wazero/releases/download/v$version/wazero_$version_windows_amd64.zip"
             }
         },
         "hash": {

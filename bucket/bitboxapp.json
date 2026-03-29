@@ -5,7 +5,7 @@
     "license": "opensource",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/https://github.com/digitalbitbox/bitbox-wallet-app/releases/download/v4.42.0/BitBox-4.42.0-win64-installer.exe",
+            "url": "https://ghproxy.com/https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.42.0/BitBox-4.42.0-win64-installer.exe",
             "hash": "6dc5e8cfdede103344fd6b36d829f4ef68b3b08de618dc7ce855e9da5b43f386"
         }
     },
@@ -17,13 +17,13 @@
     },
     "bin": "BitBox.exe",
     "checkver": {
-        "url": "https://github.com/digitalbitbox/bitbox-wallet-app/releases",
+        "url": "https://github.com/BitBoxSwiss/bitbox-wallet-app/releases",
         "regex": "\"/digitalbitbox/bitbox-wallet-app/tree/v([0-9]*.[0-9]*.[0-9]*)\""
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/https://github.com/digitalbitbox/bitbox-wallet-app/releases/download/v$match1/BitBox-$match1-win64-installer.exe"
+                "url": "https://ghproxy.com/https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v$match1/BitBox-$match1-win64-installer.exe"
             }
         }
     }

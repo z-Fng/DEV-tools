@@ -13,7 +13,7 @@
             ],
             "url": [
                 "https://download.jetbrains.com/cpp/CLion-252.23892.298.win.zip",
-                "https://ghproxy.com/https://raw.githubusercontent.com/Ash258/Scoop-JetBrains/main/scripts/portable.ps1"
+                "https://ghproxy.com/https://raw.githubusercontent.com/shovel-org/Windows-JetBrains-Bucket/main/scripts/portable.ps1"
             ]
         }
     },

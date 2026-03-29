@@ -1,5 +1,5 @@
 {
-    "$schema": "https://ghproxy.com/https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
+    "$schema": "https://ghproxy.com/https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
     "version": "0.39",
     "description": "Curl-like access to AWS resources with AWS Signature Version 4 request signing.",
     "homepage": "https://github.com/okigan/awscurl",

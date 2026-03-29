@@ -1,9 +1,9 @@
 {
-    "homepage": "https://github.com/liuzijing97/scoop-completion/",
+    "homepage": "https://github.com/Moeologist/scoop-completion/",
     "description": "Scoop tab completion, work with powershell",
     "version": "nightly",
     "license": "MIT",
-    "url": "https://github.com/liuzijing97/scoop-completion/archive/master.zip",
+    "url": "https://github.com/Moeologist/scoop-completion/archive/master.zip",
     "extract_dir": "scoop-completion-master/src",
     "psmodule": {
         "name": "scoop-completion"

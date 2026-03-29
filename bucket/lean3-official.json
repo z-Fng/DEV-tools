@@ -4,9 +4,9 @@
   "homepage": "http://leanprover.github.io/",
   "license": {
     "identifier": "Apache-2.0",
-    "url": "https://github.com/leanprover/lean/blob/master/LICENSE"
+    "url": "https://github.com/leanprover/lean3/blob/master/LICENSE"
   },
-  "url": "https://ghproxy.com/https://github.com/leanprover/lean/releases/download/v3.4.2/lean-3.4.2-windows.zip",
+  "url": "https://ghproxy.com/https://github.com/leanprover/lean3/releases/download/v3.4.2/lean-3.4.2-windows.zip",
   "hash": "md5:f01ada920af497f0392fc98952183577",
   "extract_dir": "lean-3.4.2-windows",
   "env_add_path": [
@@ -14,10 +14,10 @@
     "lib"
   ],
   "checkver": {
-    "url": "https://github.com/leanprover/lean"
+    "url": "https://github.com/leanprover/lean3"
   },
   "autoupdate": {
-    "url": "https://ghproxy.com/https://github.com/leanprover/lean/releases/download/v$version/lean-$version-windows.zip",
+    "url": "https://ghproxy.com/https://github.com/leanprover/lean3/releases/download/v$version/lean-$version-windows.zip",
     "extract_dir": "lean-$version-windows",
     "hash": ""
   }

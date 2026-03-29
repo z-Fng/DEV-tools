@@ -2,7 +2,7 @@
   "version": "0.0.2",
   "architecture": {
     "64bit": {
-      "url": "http://github.com/jaxxstorm/connectme/releases/download/v0.0.2/connectme-v0.0.2-windows-amd64.zip",
+      "url": "https://github.com/jaxxstorm/connecti/releases/download/v0.0.2/connectme-v0.0.2-windows-amd64.zip",
       "bin": [
         "connectme.exe"
       ],

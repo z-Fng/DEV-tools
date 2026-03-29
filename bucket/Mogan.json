@@ -3,7 +3,7 @@
     "description": "Structured STEM suite",
     "homepage": "https://mogan.app",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/XmacsLabs/mogan/releases/download/v2026.1.1/MoganSTEM-v2026.1.1-64bit-installer.exe#/dl.7z",
+    "url": "https://github.com/MoganLab/mogan/releases/download/v2026.1.1/MoganSTEM-v2026.1.1-64bit-installer.exe#/dl.7z",
     "hash": "40ab39ede2cd474d3334bf571e5bf109cd4f789111106f73631404ac3165a2ba",
     "shortcuts": [
         [
@@ -32,9 +32,9 @@
     },
     "persist": "data",
     "checkver": {
-        "github": "https://github.com/XmacsLabs/mogan"
+        "github": "https://github.com/MoganLab/mogan"
     },
     "autoupdate": {
-        "url": "https://github.com/XmacsLabs/mogan/releases/download/v$version/MoganSTEM-v$version-64bit-installer.exe#/dl.7z"
+        "url": "https://github.com/MoganLab/mogan/releases/download/v$version/MoganSTEM-v$version-64bit-installer.exe#/dl.7z"
     }
 }
